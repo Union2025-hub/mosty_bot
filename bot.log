@@ -1,0 +1,133 @@
+2025-03-30 18:09:28,033 - INFO - Bot: Yalta_bot [@mostmira_bot]
+2025-03-30 18:09:29,226 - WARNING - Updates were skipped successfully.
+2025-03-30 18:09:29,227 - INFO - Start polling.
+2025-03-30 18:10:34,386 - ERROR - Ошибка при обработке сообщения
+Traceback (most recent call last):
+  File "C:\Users\Yalta\Desktop\mosty_bot\bot.py", line 79, in handle_any
+    write_row([user_id, username, text])
+TypeError: write_row() missing 2 required positional arguments: 'username' and 'text'
+2025-03-30 18:11:38,701 - ERROR - Ошибка при обработке сообщения
+Traceback (most recent call last):
+  File "C:\Users\Yalta\Desktop\mosty_bot\bot.py", line 79, in handle_any
+    write_row([user_id, username, text])
+TypeError: write_row() missing 2 required positional arguments: 'username' and 'text'
+2025-03-30 18:41:12,309 - INFO - Start polling.
+2025-03-30 18:41:29,938 - INFO - Заявка от Konstantin_Kolomenskiy: \U0001f39f Участвовать
+2025-03-30 18:41:40,873 - INFO - Заявка от Konstantin_Kolomenskiy: \U0001f3ac Прислать фильм
+2025-03-30 18:41:51,451 - INFO - Заявка от Konstantin_Kolomenskiy: \U0001f3b5 Прислать песню
+2025-03-30 18:41:57,760 - INFO - Заявка от Konstantin_Kolomenskiy: \U0001f4e9 Связаться с организаторами
+2025-03-30 18:43:03,592 - INFO - Start polling.
+2025-03-30 18:53:20,140 - INFO - Start polling.
+2025-03-30 19:35:55,296 - INFO - Start polling
+2025-03-30 19:35:57,450 - INFO - Run polling for bot @mostmira_bot id=7617871189 - 'Yalta_bot'
+2025-03-30 19:46:55,503 - INFO - Start polling
+2025-03-30 19:46:57,705 - INFO - Run polling for bot @mostmira_bot id=7617871189 - 'Yalta_bot'
+2025-03-30 19:47:00,140 - INFO - Update id=297954386 is handled. Duration 1827 ms by bot id=7617871189
+2025-03-30 19:47:00,140 - INFO - Update id=297954388 is handled. Duration 1827 ms by bot id=7617871189
+2025-03-30 19:47:00,170 - INFO - Update id=297954387 is handled. Duration 1858 ms by bot id=7617871189
+2025-03-30 19:47:00,190 - INFO - Update id=297954389 is handled. Duration 1875 ms by bot id=7617871189
+2025-03-30 19:47:01,172 - INFO - Update id=297954390 is handled. Duration 2842 ms by bot id=7617871189
+2025-03-30 19:47:15,650 - INFO - Update id=297954391 is not handled. Duration 0 ms by bot id=7617871189
+2025-03-30 19:47:15,650 - ERROR - Cause exception while process update id=297954391 by bot id=7617871189
+TypeError: write_to_sheet() missing 2 required positional arguments: 'username' and 'text'
+Traceback (most recent call last):
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Yalta\Desktop\mosty_bot\bot.py", line 42, in save_role
+    write_to_sheet([user_id, username, role])
+TypeError: write_to_sheet() missing 2 required positional arguments: 'username' and 'text'
+2025-03-30 19:47:42,480 - INFO - Update id=297954392 is not handled. Duration 0 ms by bot id=7617871189
+2025-03-30 19:47:42,480 - ERROR - Cause exception while process update id=297954392 by bot id=7617871189
+TypeError: write_to_sheet() missing 2 required positional arguments: 'username' and 'text'
+Traceback (most recent call last):
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Yalta\Desktop\mosty_bot\bot.py", line 42, in save_role
+    write_to_sheet([user_id, username, role])
+TypeError: write_to_sheet() missing 2 required positional arguments: 'username' and 'text'
+2025-03-30 19:47:50,740 - INFO - Update id=297954393 is handled. Duration 1859 ms by bot id=7617871189
+2025-03-30 19:47:55,230 - INFO - Update id=297954394 is handled. Duration 671 ms by bot id=7617871189
+2025-03-30 19:48:03,170 - INFO - Update id=297954395 is not handled. Duration 0 ms by bot id=7617871189
+2025-03-30 19:48:03,170 - ERROR - Cause exception while process update id=297954395 by bot id=7617871189
+TypeError: write_to_sheet() missing 2 required positional arguments: 'username' and 'text'
+Traceback (most recent call last):
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\Yalta\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\Yalta\Desktop\mosty_bot\bot.py", line 42, in save_role
+    write_to_sheet([user_id, username, role])
+TypeError: write_to_sheet() missing 2 required positional arguments: 'username' and 'text'
+2025-03-30 19:53:41,035 - INFO - Update id=297954396 is handled. Duration 2125 ms by bot id=7617871189
+2025-03-30 19:53:48,501 - INFO - Update id=297954397 is handled. Duration 656 ms by bot id=7617871189
+2025-03-30 19:54:38,534 - INFO - Update id=297954398 is not handled. Duration 0 ms by bot id=7617871189

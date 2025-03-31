@@ -1,0 +1,8 @@
+2025-03-30 17:31:59,809 - INFO - Бот запущен
+2025-03-30 17:31:59,810 - INFO - Start polling.
+2025-03-30 17:32:21,627 - INFO - Новая заявка: 5060626204, Konstantin_Kolomenskiy, зритель
+2025-03-30 17:39:06,766 - INFO - Новая заявка: 5060626204, Konstantin_Kolomenskiy, https://vk.com/video-228085225_456248834
+2025-03-30 19:05:03,408 INFO:Start polling.
+2025-03-30 19:05:46,108 INFO:Text saved from Konstantin_Kolomenskiy: /start
+2025-03-30 19:05:51,703 INFO:Text saved from Konstantin_Kolomenskiy: /start
+2025-03-30 19:06:19,527 INFO:Start polling.
